@@ -169,13 +169,18 @@ main {
   flex-direction: column;
   gap: 1rem;
 }
-img[src*='#left'] {
-  float: left;
-}
-img[src*='#right'] {
-  float: right;
-}
-img[src*='#center'] {
+/* Float logic */
+img[alt*=" >"] { float: right; }
+img[alt*=" <"] { float: left; }
+
+/* Size logic */
+img[alt*=" small"]  { max-width: 150px; }
+img[alt*=" medium"] { max-width: 300px; }
+img[alt*=" large"]  { max-width: 600px; }
+
+/* Center override */
+img[alt*="><"] {
   display: block;
   margin: auto;
+  float: none !important;
 }
