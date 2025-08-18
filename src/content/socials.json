@@ -6,6 +6,15 @@
       "name": "github"
     },
     "text": "GitHub",
-    "link": "https://github.com/louisescher/spectre"
+    "link": "https://github.com/jtaylormade"
+  },
+  {
+    "id": 2,
+    "icon": {
+      "type": "lucide",
+      "name": "linkedin"
+    },
+    "text": "LinkedIn",
+    "link": "www.linkedin.com/in/jacob-taylor-a65810100"
   }
 ]
