@@ -39,7 +39,7 @@ const config = defineConfig({
     }),
     sitemap(),
     spectre({
-      name: 'Spectre',
+      name: 'Jacob Taylor',
       openGraph: {
         home: {
           title: 'Spectre',
