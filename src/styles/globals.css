@@ -171,14 +171,17 @@ main {
 }
 
 /*I don't even care lol, I just want markdown to work*/
-img[alt*=" xxs"] { transform: scale(0.25); }
-img[alt*=" xs"] { transform: scale(0.5); }
-img[alt*=" sm"] { transform: scale(0.75); }
-img[alt*=" md"] { transform: scale(1); }
-img[alt*=" lg"] { transform: scale(1.25); }
-img[alt*=" xl"] { transform: scale(1.5); }
-transform-origin: top left; /* or center if you prefer */
+img[alt*=" >"]  { float: right; }
+img[alt*=" <"]  { float: left; }
+img[alt*="><"]  {
+  display: block;
+  float: none !important;
+  margin-inline: auto;
+}
 
-/* Float logic */
-img[alt*=" >"] { float: right; }
-img[alt*=" <"] { float: left; }
+/* Scale logic (true layout size) */
+img[alt*=" xs"] { width: 100px; height: auto; }
+img[alt*=" sm"] { width: 200px; height: auto; }
+img[alt*=" md"] { width: 300px; height: auto; }
+img[alt*=" lg"] { width: 400px; height: auto; }
+img[alt*=" xl"] { width: 500px; height: auto; }
