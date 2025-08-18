@@ -169,9 +169,7 @@ main {
   flex-direction: column;
   gap: 1rem;
 }
-/* Float logic */
-img[alt*=" >"] { float: right; }
-img[alt*=" <"] { float: left; }
+
 /*I don't even care lol, I just want markdown to work*/
 img[alt*=" xxs"] { transform: scale(0.25); }
 img[alt*=" xs"] { transform: scale(0.5); }
@@ -180,3 +178,7 @@ img[alt*=" md"] { transform: scale(1); }
 img[alt*=" lg"] { transform: scale(1.25); }
 img[alt*=" xl"] { transform: scale(1.5); }
 transform-origin: top left; /* or center if you prefer */
+
+/* Float logic */
+img[alt*=" >"] { float: right; }
+img[alt*=" <"] { float: left; }
