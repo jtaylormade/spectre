@@ -22,7 +22,8 @@
     "astro": "^5.11.0",
     "astro-expressive-code": "^0.38.3",
     "sharp": "^0.33.5",
-    "@astrojs/netlify": "^6.5.7"
+    "@astrojs/netlify": "^6.5.7",
+    "remark-attr": "^2.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
