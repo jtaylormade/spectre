@@ -90,15 +90,15 @@ const projects = defineCollection({
 const publications = defineCollection({
   loader: glob({ base: "src/content/publications", pattern: "**/*.{md,mdx}" }),
   schema: ({ image }) => z.object({
-    title: z.string(),
-    description: z.string(),
-    date: z.coerce.date(),
+    title: z.string().optional(),
+    description: z.string().optional(),
+    date: z.coerce.date().optional(),
     image: image().optional(), // Make optional if not all publications have images
     link: z.string().url().optional(),
     info: z.array(
       z.object({
-        text: z.string(),
-        icon: z.union([lucideIconSchema, simpleIconSchema]),
+        text: z.string().optional(),
+        icon: z.union([lucideIconSchema, simpleIconSchema]).optional(),
         link: z.string().url().optional(),
       })
     ).optional(), // Make optional if not all publications have info
