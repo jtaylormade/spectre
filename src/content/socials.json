@@ -1,20 +1,21 @@
 [
   {
-    "id": 1,
-    "icon": {
-      "type": "lucide",
-      "name": "github"
-    },
-    "text": "GitHub",
-    "link": "https://github.com/jtaylormade",
-  },{
-    "id":2,
+    "id":1,
     "icon": {
     "type": "coreui",
     "name": "cil-orcid"
     },
     "text": "orcid",
     "link": "https://orcid.org/0000-0003-0895-1321"
+  },
+  {
+    "id": 2,
+    "icon": {
+      "type": "lucide",
+      "name": "github"
+    },
+    "text": "GitHub",
+    "link": "https://github.com/jtaylormade",
   },{
     "id": 3,
       "icon": {
