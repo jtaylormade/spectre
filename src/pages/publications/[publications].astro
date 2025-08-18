@@ -42,16 +42,24 @@ const { Content } = await render(publication);
     <Card class="toc-card">
       <h2 class="no-mt">Info</h2>
       <ul class="overview-list">
-        {publication.data.info.map((info) => {
+        {publication.data.info?.map((info) => {
           const Tag = info.link ? 'a' : 'div';
           return (
             <li>
               <Tag href={info.link} class='publication-info-item'>
-                <Icon type={info.icon.type} name={info.icon.name as any} width={24} height={24} class='glow-icon' />
-                <span>{info.text}</span>
+                {info.icon && (
+                  <Icon
+                    type={info.icon.type}
+                    name={info.icon.name as any}
+                    width={24}
+                    height={24}
+                    class='glow-icon'
+                  />
+                )}
+                {info.text && <span>{info.text}</span>}
               </Tag>
             </li>
-          )
+          );
         })}
       </ul>
     </Card>
@@ -59,7 +67,14 @@ const { Content } = await render(publication);
   <article slot="right" data-pagefind-body>
     <Card>
       <div class="article-header" id="_top" data-pagefind-ignore>
-        {publication.data.image && <ImageGlow quality={100} class="article-image" src={publication.data.image} alt={publication.data.title} />}
+        {publication.data.image && (
+          <ImageGlow
+            quality={100}
+            class="article-image"
+            src={publication.data.image}
+            alt={publication.data.title}
+          />
+        )}
         <div class="header">
           <div>
             <h1 class="no-mt article-h1">{publication.data.title}</h1>
