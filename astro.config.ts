@@ -8,6 +8,8 @@ import spectre from './package/src';
 
 import node from '@astrojs/node';
 import { spectreDark } from './src/ec-theme';
+import remarkAttr from 'remark-attr';    // ← add this ✔
+
 
 const {
   GISCUS_REPO,
@@ -32,7 +34,9 @@ const config = defineConfig({
     expressiveCode({
       themes: [spectreDark],
     }),
-    mdx(),
+    mdx({
+    remarkPlugins: [remarkAttr]          // ← replace plain mdx() with this
+    }),
     sitemap(),
     spectre({
       name: 'Spectre',
