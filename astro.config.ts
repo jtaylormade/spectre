@@ -8,7 +8,7 @@ import spectre from './package/src';
 
 import node from '@astrojs/node';
 import { spectreDark } from './src/ec-theme';
-import remarkAttr from 'remark-attr';    // ← add this ✔
+//import remarkAttr from 'remark-attr';    // ← add this ✔
 
 
 const {
