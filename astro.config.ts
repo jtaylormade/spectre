@@ -34,9 +34,7 @@ const config = defineConfig({
     expressiveCode({
       themes: [spectreDark],
     }),
-    mdx({
-    remarkPlugins: [remarkAttr]          // ← replace plain mdx() with this
-    }),
+    mdx(),
     sitemap(),
     spectre({
       name: 'Jacob Taylor',
