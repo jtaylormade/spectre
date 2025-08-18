@@ -172,15 +172,10 @@ main {
 /* Float logic */
 img[alt*=" >"] { float: right; }
 img[alt*=" <"] { float: left; }
-
-/* Size logic */
-img[alt*=" small"]  { max-width: 150px; }
-img[alt*=" medium"] { max-width: 300px; }
-img[alt*=" large"]  { max-width: 600px; }
-
-/* Center override */
-img[alt*="><"] {
-  display: block;
-  margin: auto;
-  float: none !important;
-}
+/*I don't even care lol, I just want markdown to work*/
+img[alt*=" xs"] { transform: scale(0.5); }
+img[alt*=" sm"] { transform: scale(0.75); }
+img[alt*=" md"] { transform: scale(1); }
+img[alt*=" lg"] { transform: scale(1.25); }
+img[alt*=" xl"] { transform: scale(1.5); }
+transform-origin: top left; /* or center if you prefer */
