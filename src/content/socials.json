@@ -6,24 +6,18 @@
       "name": "github"
     },
     "text": "GitHub",
-    "link": "https://github.com/jtaylormade"
-  },
-  {
-    "id": 2,
+    "link": "https://github.com/jtaylormade",
     "icon": {
+    "type": "coreui",
+    "name": "orcid"
+    },
+    "text": "orcid",
+    "link": "https://orcid.org/0000-0003-0895-1321",
+      "icon": {
       "type": "coreui",
       "name": "linkedin"
     },
     "text": "LinkedIn",
     "link": "www.linkedin.com/in/jacob-taylor-a65810100"
   },
-  {
-    "id": 3,
-    "icon": {
-      "type": "coreui",
-      "name": "orcid"
-    },
-    "text": "orcid",
-    "link": "https://orcid.org/0000-0003-0895-1321"
-  }
 ]
