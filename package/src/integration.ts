@@ -109,6 +109,10 @@ export const optionsSchema = z.object({
      * Open Graph meta tags for the projects page.
      */
     projects: openGraphOptionsSchema,
+        /**
+     * Open Graph meta tags for the publications page.
+     */
+    publications: openGraphOptionsSchema,
   }),
   /**
    * All of this information can be find on [giscus' config page](https://giscus.app) under "Enable giscus" after entering all information.
@@ -143,6 +147,7 @@ export default function integration(options: z.infer<typeof optionsSchema>): Ast
       home: ${JSON.stringify(validatedOptions.openGraph.home)},
       blog: ${JSON.stringify(validatedOptions.openGraph.blog)},
       projects: ${JSON.stringify(validatedOptions.openGraph.projects)},
+      publications: ${JSON.stringify(validatedOptions.openGraph.publications)},
     };
     export const giscus = ${validatedOptions.giscus ? JSON.stringify(validatedOptions.giscus) : 'false'};
   `);
