@@ -25,13 +25,13 @@ const {
 const config = defineConfig({
   site: 'https://spectre.louisescher.dev',
   output: 'static',
+  alias: {
+    '@content': './src/content',
+    },
   integrations: [
     expressiveCode({
       themes: [spectreDark],
     }),
-    alias: {
-    '@content': './src/content',
-    },
     mdx(),
     sitemap(),
     spectre({
