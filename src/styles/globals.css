@@ -173,6 +173,7 @@ main {
 img[alt*=" >"] { float: right; }
 img[alt*=" <"] { float: left; }
 /*I don't even care lol, I just want markdown to work*/
+img[alt*=" xxs"] { transform: scale(0.25); }
 img[alt*=" xs"] { transform: scale(0.5); }
 img[alt*=" sm"] { transform: scale(0.75); }
 img[alt*=" md"] { transform: scale(1); }
