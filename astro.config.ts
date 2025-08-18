@@ -29,6 +29,9 @@ const config = defineConfig({
     expressiveCode({
       themes: [spectreDark],
     }),
+    alias: {
+    '@content': './src/content',
+    },
     mdx(),
     sitemap(),
     spectre({
