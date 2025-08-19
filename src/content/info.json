@@ -3,7 +3,7 @@
     "id": 1,
     "icon": {
       "type": "lucide",
-      "name": "cake"
+      "name": "university"
     },
     "text": "PhD Physics Candidate"
   },
@@ -11,9 +11,18 @@
     "id": 2,
     "icon": {
       "type": "lucide",
-      "name": "earth"
+      "name": "graduation-cap"
     },
     "type": "lucide",
-    "text": "Bsc Math and Physics"
+    "text": "MSc Quantum Computing"
+  },
+  {
+    "id": 3,
+    "icon": {
+      "type": "lucide",
+      "name": "graduation-cap"
+    },
+    "type": "lucide",
+    "text": "BSc Math and Physics"
   }
 ]
