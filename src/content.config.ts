@@ -27,7 +27,7 @@ const quickInfo = defineCollection({
   loader: file("src/content/info.json"),
   schema: z.object({
     id: z.number(),
-    icon: z.union([lucideIconSchema, simpleIconSchema]),
+    icon: z.union([lucideIconSchema, simpleIconSchema,coreuiIconSchema]),
     text: z.string(),
   })
 });
@@ -36,7 +36,7 @@ const socials = defineCollection({
   loader: file("src/content/socials.json"),
   schema: z.object({
     id: z.number(),
-    icon: z.union([lucideIconSchema, simpleIconSchema]),
+    icon: z.union([lucideIconSchema, simpleIconSchema,coreuiIconSchema]),
     text: z.string(),
     link: z.string().url(),
   })
@@ -86,7 +86,7 @@ const projects = defineCollection({
     info: z.array(
       z.object({
         text: z.string(),
-        icon: z.union([lucideIconSchema, simpleIconSchema]),
+        icon: z.union([lucideIconSchema, simpleIconSchema,coreuiIconSchema]),
         link: z.string().url().optional(),
       })
     )
@@ -104,7 +104,7 @@ const publications = defineCollection({
     info: z.array(
       z.object({
         text: z.string().optional(),
-        icon: z.union([lucideIconSchema, simpleIconSchema]).optional(),
+        icon: z.union([lucideIconSchema, simpleIconSchema,coreuiIconSchema]).optional(),
         link: z.string().url().optional(),
       })
     ).optional(), // Make optional if not all publications have info
