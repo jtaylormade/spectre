@@ -2,8 +2,8 @@
   {
     "id":1,
     "icon": {
-    "type": "lucide",
-    "name": "earth"
+    "type": "simple-icons",
+    "name": "orcid"
     },
     "text": "orcid",
     "link": "http://orcid.org/0000-0003-0895-1321"
