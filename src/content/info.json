@@ -5,7 +5,7 @@
       "type": "lucide",
       "name": "university"
     },
-    "text": "PhD Physics Candidate"
+    "text": "PhD Physics Candidate\n at the University of Maryland, College Park",
   },
   {
     "id": 2,
@@ -14,7 +14,7 @@
       "name": "graduation-cap"
     },
     "type": "lucide",
-    "text": "MSc Quantum Computing"
+    "text": "MSc Quantum Computing\n at the University of Waterloo"
   },
   {
     "id": 3,
@@ -23,6 +23,6 @@
       "name": "graduation-cap"
     },
     "type": "lucide",
-    "text": "BSc Math and Physics"
+    "text": "BSc Math and Physics\n at the University of Waterloo"
   }
 ]
