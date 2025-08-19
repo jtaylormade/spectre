@@ -10,7 +10,7 @@
   },{
     "id":2,
     "icon": {
-    "type": "coreui",
+    "type": "simple-icons",
     "name": "github"
     },
     "text": "github",
