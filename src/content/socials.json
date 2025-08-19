@@ -10,8 +10,8 @@
   },{
     "id":2,
     "icon": {
-    "type": "lucide",
-    "name": "earth"
+    "type": "coreui",
+    "name": "cib-github"
     },
     "text": "github",
     "link": "http://github.com/jtaylormade"
