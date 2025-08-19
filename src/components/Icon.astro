@@ -35,7 +35,7 @@ type Props = LucideProps | SimpleIconsProps | CoreUIProps;
 const { type, name, ...props } = Astro.props;
 const attributes = props as SVGAttributes;
 
-if (type !== 'lucide' && type !== 'simple-icons') {
+if (type !== 'lucide' && type !== 'simple-icons' && type !== 'coreui') {
 	throw new AstroError(`Invalid icon type "${type}"`);
 }
 
