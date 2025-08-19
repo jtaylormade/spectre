@@ -8,21 +8,21 @@
     "text": "orcid",
     "link": "https://orcid.org/0000-0003-0895-1321"
   },
-  {
-    "id": 2,
-    "icon": {
-      "type": "lucide",
-      "name": "github"
-    },
-    "text": "GitHub",
-    "link": "https://github.com/jtaylormade",
-  },{
-    "id": 3,
-      "icon": {
-      "type": "lucide",
-      "name": "cake"
-    },
-    "text": "LinkedIn",
-    "link": "www.linkedin.com/in/jacob-taylor-a65810100"
-  }
+  // {
+  //   "id": 2,
+  //   "icon": {
+  //     "type": "lucide",
+  //     "name": "github"
+  //   },
+  //   "text": "GitHub",
+  //   "link": "https://github.com/jtaylormade",
+  // },{
+  //   "id": 3,
+  //     "icon": {
+  //     "type": "lucide",
+  //     "name": "cake"
+  //   },
+  //   "text": "LinkedIn",
+  //   "link": "www.linkedin.com/in/jacob-taylor-a65810100"
+  // }
 ]
