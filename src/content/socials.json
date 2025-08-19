@@ -11,7 +11,7 @@
     "id":2,
     "icon": {
     "type": "coreui",
-    "name": "cib-github"
+    "name": "github"
     },
     "text": "github",
     "link": "http://github.com/jtaylormade"
