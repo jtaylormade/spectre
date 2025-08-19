@@ -22,6 +22,7 @@ const [posts, projects, publications, about, workExperience, quickInfo, socials]
     getCollection('socials')
 ]);
 
+console.log('Socials:', socials.map((s) => s.data));
 // biome-ignore lint/style/noNonNullAssertion: Should always be defined.
 const { Content: About } = await render(about!);
 ---
@@ -45,7 +46,7 @@ const { Content: About } = await render(about!);
             </ul>
         </Card>
         <Card>
-            <h3 class="no-mt">Socials test</h3>
+            <h3 class="no-mt">Socials</h3>
             <ul class="overview-list">
                 {socials.map((item) => (
                     <li>
