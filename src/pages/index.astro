@@ -22,7 +22,7 @@ const [posts, projects, publications, about, workExperience, quickInfo, socials]
     getCollection('socials')
 ]);
 
-console.log('Socials:', socials.map((s) => s.data));
+
 // biome-ignore lint/style/noNonNullAssertion: Should always be defined.
 const { Content: About } = await render(about!);
 ---
