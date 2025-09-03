@@ -102,8 +102,8 @@ integrations: [
     name: 'Jacob Taylor',
     openGraph: {
       home: {
-        title: 'Spectre',
-        description: 'A minimalistic theme for Astro.',
+        title: "Jacob Taylor Home",
+        description: 'A minimalistic website.',
       },
       blog: {
         title: 'Blog',
@@ -114,6 +114,7 @@ integrations: [
       },
       publications: {
         title: 'Publications',
+        description: 'Published papers by Jacob Taylor',
       },
     },
     giscus: {
