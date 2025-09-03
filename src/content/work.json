@@ -1,58 +1,58 @@
 [
   {
     "id": 1,
-    "duration": "Mar 2025 – Present",
-    "company": "Microsoft",
-    "title": "Quantum Engineer Intern",
-    "description": "Internship focused on quantum engineering."
+    "duration": "Jan 2017 – Apr 2017",
+    "company": "Independent Electricity System Operator (IESO)",
+    "title": "Market Analyst Intern",
+    "description": "Mostly turned into software development for database management and automating daily tasks."
   },
   {
     "id": 2,
-    "duration": "Aug 2022 – Sep 2025",
-    "company": "University of Maryland",
-    "title": "Graduate Research Assistant",
-    "description": "Full-time graduate research assistantship."
-  },
-  {
-    "id": 3,
-    "duration": "Jun 2020 – Aug 2022",
-    "company": "University of Waterloo",
-    "title": "Graduate Research Assistant",
-    "description": "Full-time graduate research role working on physics research projects."
-  },
-  {
-    "id": 4,
-    "duration": "Sep 2019 – Sep 2020",
-    "company": "University of Waterloo",
-    "title": "Undergraduate Research Assistant",
-    "description": "Internship contributing to research in physics and quantum computing."
-  },
-  {
-    "id": 5,
-    "duration": "Jan 2019 – Aug 2019",
-    "company": "National Research Council Canada",
-    "title": "Research Assistant",
-    "description": "Internship research assistant role."
-  },
-  {
-    "id": 6,
-    "duration": "May 2018 – Aug 2018",
-    "company": "National Research Council Canada",
-    "title": "Research Assistant",
-    "description": "Internship research assistant role."
-  },
-  {
-    "id": 7,
     "duration": "Sep 2017 – Dec 2017",
     "company": "TELUS",
     "title": "Software Developer Intern",
     "description": "Internship in software development."
   },
   {
+    "id": 3,
+    "duration": "May 2018 – Aug 2018",
+    "company": "National Research Council Canada",
+    "title": "Research Assistant",
+    "description": "Internship research assistant role."
+  },
+  {
+    "id": 4,
+    "duration": "Jan 2019 – Aug 2019",
+    "company": "National Research Council Canada",
+    "title": "Research Assistant",
+    "description": "Internship research assistant role."
+  },
+  {
+    "id": 5,
+    "duration": "Sep 2019 – Sep 2020",
+    "company": "University of Waterloo",
+    "title": "Undergraduate Research Assistant",
+    "description": "Internship contributing to research in physics and quantum computing."
+  },
+  {
+    "id": 6,
+    "duration": "Jun 2020 – Aug 2022",
+    "company": "University of Waterloo",
+    "title": "Graduate Research Assistant",
+    "description": "Full-time graduate research role working on physics research projects."
+  },
+  {
+    "id": 7,
+    "duration": "Aug 2022 – Present",
+    "company": "University of Maryland",
+    "title": "Graduate Research Assistant",
+    "description": "Full-time graduate research assistantship."
+  },
+  {
     "id": 8,
-    "duration": "Jan 2017 – Apr 2017",
-    "company": "Independent Electricity System Operator (IESO)",
-    "title": "Market Analyst Intern",
-    "description": "Mostly turned into software development for database management and automating daily tasks."
+    "duration": "Mar 2025 – Present",
+    "company": "Microsoft",
+    "title": "Quantum Engineer Intern",
+    "description": "Internship focused on quantum engineering."
   }
 ]
