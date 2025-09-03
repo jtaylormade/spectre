@@ -15,5 +15,14 @@
     },
     "text": "github",
     "link": "http://github.com/jtaylormade"
+  },{
+    "id":3,
+    "icon": {
+    "type": "simple-icons",
+    "name": "linkedin"
+    },
+    "text": "linkedin",
+    "link": "http://github.com/jtaylormade"
   }
+
 ]
