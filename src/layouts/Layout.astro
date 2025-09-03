@@ -1,28 +1,3 @@
----
-import '../styles/reset.css';
-import '../styles/globals.css';
-
-import Background from '../components/Background.astro';
-import Navbar from '../components/Navbar.astro';
-import LayoutGrid from '../components/LayoutGrid.astro';
-import { name, themeColor, twitterHandle } from 'spectre:globals';
-
-interface Props {
-	title: string;
-	description?: string;
-	image?: ImageMetadata;
-	pagefindIgnore?: boolean;
-	article?: {
-		createdAt: Date;
-		updatedAt?: Date;
-	};
-}
-
-const { title, description, image, pagefindIgnore, article } = Astro.props;
----
-
-<!DOCTYPE html>
-<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -60,16 +35,11 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 		<meta name="twitter:title" content={title} />
 		{description && <meta name="twitter:description" content={description} />}
 		<meta name="twitter:image" content={image?.src || '/img/og.png'} />
+
+		<!-- ✅ KaTeX CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+			crossorigin="anonymous"
+		/>
 	</head>
-	<body>
-		<main data-pagefind-ignore={pagefindIgnore}>
-			<Navbar />
-			<LayoutGrid>
-				<slot name="left" slot="left" />
-				<slot name="right" slot="right" />
-			</LayoutGrid>
-			<slot name="404" />
-		</main>
-		<Background />
-	</body>
-</html>
