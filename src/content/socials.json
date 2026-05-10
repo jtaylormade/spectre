@@ -23,6 +23,14 @@
     },
     "text": "linkedin",
     "link": "http://linkedin.com/in/jacob-taylor-a65810100"
+  },{
+    "id": 4,
+    "icon": {
+      "type": "simple-icons",
+      "name": "googlescholar"
+    },
+    "text": "google scholar",
+    "link": "https://scholar.google.com/citations?hl=en&user=4wYn8_wAAAAJ&view_op=list_works&authuser=2&sortby=pubdate"
   }
 
 ]
